@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 50px;
+  width: 100vw;
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+.navbar__leftside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40vw;
+  height: 25px;
+}
+
+.wix__icon__container {
+  height: 100%;
+}
+
+.wix__icon__container a img {
+  height: 100%;
+}
+
+.navbar__icons__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desktop__icon__btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: 100;
+}
+.mobile__icon__btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: 100;
+}

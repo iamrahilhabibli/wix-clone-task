@@ -185,7 +185,7 @@ section{
 .service-page{
   position: relative;
   background-color: white;
-  padding: 50px;
+  /* padding: 50px; */
   background-attachment: fixed; 
 }
 .services-topwrapper{
@@ -211,6 +211,7 @@ letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px; 
 }
 
 .card1,
@@ -250,6 +251,6 @@ letter-spacing: 1px;
 .services__footer{
   height: 500px;
   background-color:#16163F;
-  
+  width: 100vw;
 }
 

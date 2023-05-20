@@ -182,6 +182,9 @@ section {
   font-size: 18px;
   margin-top: 25px;
 }
+.serviceWrapperScript {
+  background-color: white;
+}
 .service-page {
   position: relative;
   background-color: white;

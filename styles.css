@@ -170,3 +170,34 @@ section{
   color: #16163F;
   margin-top: 15px;
 }
+.learnmore__btn{
+  color: white;
+  background-color:#9E3FFC;
+  border-radius: 20px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+   margin-top: 25px;
+}
+.service-page{
+  position: relative;
+  height: 100vh;
+}
+.services-topwrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__toprow p{
+color: #9E3FFC;
+font-size: 16px;
+font-weight: 600;
+margin-top: 118px;
+letter-spacing: 1px;
+}
+.services-botwrapper{
+  display: flex;
+  flex-direction: row;
+
+}

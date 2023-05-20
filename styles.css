@@ -185,7 +185,6 @@ section {
 .service-page {
   position: relative;
   background-color: white;
-  /* padding: 50px; */
   background-attachment: fixed;
 }
 .services-topwrapper {
@@ -305,4 +304,16 @@ p {
 }
 .about-page__rightside {
   background-image: url(./images/wix-sectionbackGround.webp);
+  position: relative;
+  z-index: -1;
+}
+.about-page__leftside {
+  padding: 30px;
+}
+.toprow__about {
+  color: #9e3ffc;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 118px;
+  letter-spacing: 1px;
 }

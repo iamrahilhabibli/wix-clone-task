@@ -148,9 +148,13 @@ font-family: 'Wix Madefor Display', sans-serif;
 section{
   margin-top: 175px;
 }
-.home-page{
-position: relative;
+.home-page {
+  position: relative;
+  height: 100vh;
+  background-color: lightgrey;
+  background-image: linear-gradient(rgba(211, 211, 211, 0.7) 0%, rgba(211, 211, 211, 0) 100%);
 }
+
 .text__container{
   position: relative;
   left: 150px;

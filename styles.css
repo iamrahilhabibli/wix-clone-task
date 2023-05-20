@@ -35,7 +35,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .desktop__icon__btn {
   background-color: transparent;
@@ -59,12 +59,14 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 50px;
+  margin-left: 50px;
 }
 .editsite__btn {
   text-decoration: none;
-  background-color: blue;
-  border-radius: 50%;
+  color: white;
+  background-color: #136DFC;
+  border-radius: 14px;
   padding: 10px 10px;
 }
 .readmore__btn {

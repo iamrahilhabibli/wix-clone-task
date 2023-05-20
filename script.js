@@ -7,3 +7,12 @@ window.addEventListener("scroll", () => {
     headerBotrow.classList.remove("header__botrow__scrolled");
   }
 });
+
+window.addEventListener("scroll", function () {
+  var servicePage = document.querySelector(".service-page");
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  var moveDistance = scrollTop * 0.5;
+
+  servicePage.style.transform = "translateY(-" + moveDistance + "px)";
+});

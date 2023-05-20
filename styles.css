@@ -157,9 +157,16 @@ section{
 .text__container{
   position: relative;
   left: 150px;
+  width: max-content;
 }
 .good-advice-text{
   font-size: 90px;
   color: #16163F;
   font-weight: 700;
+}
+.text__container  p {
+  font-size: 24px;
+  line-height: 1.6em;
+  color: #16163F;
+  margin-top: 15px;
 }

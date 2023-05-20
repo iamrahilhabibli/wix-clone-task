@@ -267,7 +267,7 @@ p {
   height: max-content;
 }
 .stats__container {
-  margin: 10px auto 0px auto;
+  margin: 30px auto 0px auto;
 }
 .stats__container ul {
   display: flex;
@@ -282,4 +282,15 @@ p {
 }
 .stats__container ul li.large-number {
   font-size: 66px;
+}
+.stats__container__text {
+  margin: 10px auto 0px auto;
+}
+.stats__container__text ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 140px;
+  list-style-type: none;
+  font-weight: 400;
 }

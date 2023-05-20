@@ -150,12 +150,11 @@ section {
 }
 .home-page {
   position: relative;
-  height: 130vh; /* Adjust the value as needed */
+  height: 150vh;
+  min-height: 100%;
   background-image: url(./images/homepage\ background.webp);
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; /* Add this line */
 }
 
 .text__container {
@@ -173,6 +172,7 @@ section {
   line-height: 1.6em;
   color: #16163f;
   margin-top: 15px;
+  text-align: left;
 }
 .learnmore__btn {
   color: white;
@@ -185,13 +185,11 @@ section {
 }
 .serviceWrapperScript {
   background-color: white;
-  height: 120vh;
 }
 .service-page {
   position: relative;
   background-color: white;
   background-attachment: fixed;
-  z-index: 99;
 }
 .services-topwrapper {
   display: flex;

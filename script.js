@@ -9,10 +9,10 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", function () {
-  var servicePage = document.querySelector(".service-page");
+  var servicePage = document.querySelector(".serviceWrapperScript");
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  var moveDistance = scrollTop * 1;
+  var moveDistance = scrollTop * 0.8;
 
   servicePage.style.transform = "translateY(-" + moveDistance + "px)";
 });

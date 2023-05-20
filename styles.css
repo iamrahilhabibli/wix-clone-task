@@ -308,12 +308,12 @@ p {
   z-index: -1;
 }
 .about-page__leftside {
-  padding: 30px;
+  padding: 35px;
 }
 .toprow__about {
   color: #9e3ffc;
   font-size: 16px;
   font-weight: 700;
-  margin-top: 118px;
+  margin-top: 30px;
   letter-spacing: 1px;
 }

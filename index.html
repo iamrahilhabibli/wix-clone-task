@@ -9,8 +9,18 @@
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./script.js"></script>
     <link href="./node_modules/aos/dist/aos.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -20,9 +30,7 @@
     />
   </head>
   <body>
-    <div class="header__wrapper">
-
-    <header>
+    <header class="header">
       <div class="header__container">
         <div class="navbar__leftside">
           <div class="wix__icon__container">
@@ -62,12 +70,8 @@
         </div>
         <div class="mid__nav">
           <ul>
-            <li>
-              <a href="https://www.wix.com/demone2/bizbud">Home</a>
-            </li>
-            <li>
-              <a href="">Services</a>
-            </li>
+            <li><a href="#" class="home-link">Home</a></li>
+            <li><a href="#" class="services-link">Services</a></li>
             <li>
               <a href="">About</a>
             </li>
@@ -87,74 +91,151 @@
         </div>
       </div>
     </header>
-    <nav></nav>
     <section>
-      <div class="home-page" data-aos="fade-up">
+      <div id="home" class="home-page" data-aos="fade-up">
         <div class="text__container">
           <span class="good-advice-text">
             The Power <br />
             of Good Advice
           </span>
           <p>
-            I'm a paragraph. Click here to add your <br> own text and edit me.
+            I'm a paragraph. Click here to add your <br />
+            own text and edit me.
           </p>
           <button class="learnmore__btn">Learn more</button>
         </div>
       </div>
-      <div class="service-page">
-        <div class="serviceWrapperScript">
-          <div class="services-topwrapper" >
+      <div id="services" class="serviceWrapperScript">
+        <div class="service-page">
+          <div class="services-topwrapper">
             <div class="services__toprow">
               <p>SERVICES</p>
             </div>
             <div class="services__botrow">
-              <p>Taking Your Business to
-                the <br> Next Level</p>
+              <p>
+                Taking Your Business to the <br />
+                Next Level
+              </p>
             </div>
           </div>
           <div class="services-botwrapper">
             <div class="card1">
               <div class="svg-wrapper">
-                <svg class="circles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-                  <path fill="#16163F" clip-rule="evenodd" fill-rule="evenodd" d="M42 170.25a6 6 0 1 1-12 0 6 6 0 0 1 12 0z" data-color="1"></path>
-                  <path fill="#E7E7EB" clip-rule="evenodd" fill-rule="evenodd" d="M173.5 103.75c0 31.48-25.52 57-57 57s-57-25.52-57-57 25.52-57 57-57 57 25.52 57 57z" data-color="2"></path>
-                  <path fill="#9E3FFD" clip-rule="evenodd" fill-rule="evenodd" d="M116.5 68.75c0 24.853-20.147 45-45 45s-45-20.147-45-45 20.147-45 45-45 45 20.147 45 45z" data-color="3"></path>
+                <svg
+                  class="circles"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 200 200"
+                >
+                  <path
+                    fill="#16163F"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M42 170.25a6 6 0 1 1-12 0 6 6 0 0 1 12 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#E7E7EB"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M173.5 103.75c0 31.48-25.52 57-57 57s-57-25.52-57-57 25.52-57 57-57 57 25.52 57 57z"
+                    data-color="2"
+                  ></path>
+                  <path
+                    fill="#9E3FFD"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M116.5 68.75c0 24.853-20.147 45-45 45s-45-20.147-45-45 20.147-45 45-45 45 20.147 45 45z"
+                    data-color="3"
+                  ></path>
                 </svg>
               </div>
               <h3>Business Plans</h3>
-              <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+              <p>
+                I'm a paragraph. Click here to add <br />
+                your own text and edit me.
+              </p>
             </div>
-            
+
             <div class="card2">
               <div class="svg-wrapper">
-                <svg class="ticks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-                  <path class="tick-circle" d="M60.163 40.369a5.763 5.763 0 1 1-11.526 0 5.763 5.763 0 0 1 11.526 0z" fill="#000000" />
-                  <path class="tick-short" d="M37.029 103.69l40.464 40.531a9.606 9.606 0 0 1 0 13.572l-.627.628a9.604 9.604 0 0 1-13.583.011l-.011-.011-40.465-40.531a9.606 9.606 0 0 1 0-13.572l.627-.628a9.604 9.604 0 0 1 13.583-.011c.005.003.008.007.012.011z" fill="#E7E7EB" />
-                  <path class="tick-long" d="M62.556 144.076L162.971 43.492a9.604 9.604 0 0 1 13.583-.011l.011.011.627.628a9.606 9.606 0 0 1 0 13.572L76.777 158.276a9.604 9.604 0 0 1-13.583.011l-.011-.011-.627-.628a9.604 9.604 0 0 1 0-13.572z" fill="#9E3FFD" />
+                <svg
+                  class="ticks"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 200 200"
+                >
+                  <path
+                    class="tick-circle"
+                    d="M60.163 40.369a5.763 5.763 0 1 1-11.526 0 5.763 5.763 0 0 1 11.526 0z"
+                    fill="#000000"
+                  />
+                  <path
+                    class="tick-short"
+                    d="M37.029 103.69l40.464 40.531a9.606 9.606 0 0 1 0 13.572l-.627.628a9.604 9.604 0 0 1-13.583.011l-.011-.011-40.465-40.531a9.606 9.606 0 0 1 0-13.572l.627-.628a9.604 9.604 0 0 1 13.583-.011c.005.003.008.007.012.011z"
+                    fill="#E7E7EB"
+                  />
+                  <path
+                    class="tick-long"
+                    d="M62.556 144.076L162.971 43.492a9.604 9.604 0 0 1 13.583-.011l.011.011.627.628a9.606 9.606 0 0 1 0 13.572L76.777 158.276a9.604 9.604 0 0 1-13.583.011l-.011-.011-.627-.628a9.604 9.604 0 0 1 0-13.572z"
+                    fill="#9E3FFD"
+                  />
                 </svg>
               </div>
               <h3>Accounting Services</h3>
-              <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+              <p>
+                I'm a paragraph. Click here to add <br />
+                your own text and edit me.
+              </p>
             </div>
             <div class="card3">
               <div class="svg-wrapper">
-                <svg class="ticks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-                  <path fill="#16163F" clip-rule="evenodd" fill-rule="evenodd" d="M173.019 168.11a5.89 5.89 0 1 1-11.78 0 5.89 5.89 0 0 1 11.78 0z" data-color="1"></path>
-                  <path fill="#16163F" clip-rule="evenodd" fill-rule="evenodd" d="M173.019 168.11a5.89 5.89 0 1 1-11.78 0 5.89 5.89 0 0 1 11.78 0z" data-color="1"></path>
-                  <path fill="#E7E7EB" clip-rule="evenodd" fill-rule="evenodd" d="M153.608 59.374v93.252H60.356V59.374h93.252z" data-color="2"></path>
-                  <path fill="#9E3FFD" clip-rule="evenodd" fill-rule="evenodd" d="M92.749 26v65.767H26.982V26h65.767z" data-color="3"></path>
+                <svg
+                  class="ticks"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 200 200"
+                >
+                  <path
+                    fill="#16163F"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M173.019 168.11a5.89 5.89 0 1 1-11.78 0 5.89 5.89 0 0 1 11.78 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#16163F"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M173.019 168.11a5.89 5.89 0 1 1-11.78 0 5.89 5.89 0 0 1 11.78 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#E7E7EB"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M153.608 59.374v93.252H60.356V59.374h93.252z"
+                    data-color="2"
+                  ></path>
+                  <path
+                    fill="#9E3FFD"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd"
+                    d="M92.749 26v65.767H26.982V26h65.767z"
+                    data-color="3"
+                  ></path>
                 </svg>
               </div>
               <h3>Finance Optimisation</h3>
-              <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+              <p>
+                I'm a paragraph. Click here to add <br />
+                your own text and edit me.
+              </p>
             </div>
           </div>
         </div>
-        <div class="services__footer" >
+        <div class="services__footer">
           <div class="sf_header_container">
             <h1>We’re Good with Numbers</h1>
           </div>
-          <div class="stats__container" >
+          <div class="stats__container">
             <ul>
               <li class="large-number">15</li>
               <li class="large-number">36</li>
@@ -169,11 +250,11 @@
               <li>Clients Every Year</li>
               <li>Intl. Partners</li>
             </ul>
-          </div>          
+          </div>
         </div>
       </div>
       <div class="about-page" data-aos="fade-up">
-         <div class="about-page__leftside">
+        <div class="about-page__leftside">
           <div class="toprow__about">
             <p>ABOUT</p>
           </div>
@@ -182,20 +263,29 @@
           </div>
           <div class="botrow__about">
             <p>
-              I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. Feel free to drag and drop
+              me anywhere you like on your page. I’m a great place for you to
+              tell a story and let your users know a little more about you.
             </p>
-            <br><br>
+            <br /><br />
             <p>
-              This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+              This is a great space to write a long text about your company and
+              your services. You can use this space to go into a little more
+              detail about your company. Talk about your team and what services
+              you provide. Tell your visitors the story of how you came up with
+              the idea for your business and what makes you different from your
+              competitors. Make your company stand out and show your visitors
+              who you are.
             </p>
           </div>
-         </div>
-         <div class="about-page__rightside">
+        </div>
+        <div class="about-page__rightside">
           <div class="rightside__imgcontainer">
-            <img src="./images/wix-sectionbackGround.webp" alt="">
+            <img src="./images/wix-sectionbackGround.webp" alt="" />
           </div>
-
-         </div>
+        </div>
       </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -204,32 +294,40 @@
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-      
+
         <!-- Testimonials Title -->
         <h2 class="carousel-title">TESTIMONIALS</h2>
-      
+
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
             <div class="carousel-content">
-              <p class="testimonial-text">“I'm a testimonial. Click to edit me and add text.”</p>
-              <p class="testimonial-author">Josh Phillips<br>Company Name</p>
+              <p class="testimonial-text">
+                “I'm a testimonial. Click to edit me and add text.”
+              </p>
+              <p class="testimonial-author">Josh Phillips<br />Company Name</p>
             </div>
           </div>
           <div class="item">
             <div class="carousel-content">
-              <p class="testimonial-text">“I'm a testimonial. Click to edit me and add text.”</p>
-              <p class="testimonial-author">Gabriella Spring<br>Company Name</p>
+              <p class="testimonial-text">
+                “I'm a testimonial. Click to edit me and add text.”
+              </p>
+              <p class="testimonial-author">
+                Gabriella Spring<br />Company Name
+              </p>
             </div>
           </div>
           <div class="item">
             <div class="carousel-content">
-              <p class="testimonial-text">“I'm a testimonial. Click to edit me and add text.”</p>
-              <p class="testimonial-author">Louise Maxwell<br>Company Name</p>
+              <p class="testimonial-text">
+                “I'm a testimonial. Click to edit me and add text.”
+              </p>
+              <p class="testimonial-author">Louise Maxwell<br />Company Name</p>
             </div>
           </div>
         </div>
-      
+
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -240,11 +338,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      
-      
-      
-      
-      
+
       <div class="test" data-aos="fade-up">test</div>
       <div class="test" data-aos="fade-up">test</div>
       <div class="test" data-aos="fade-up">test</div>
@@ -255,5 +349,4 @@
   <script>
     AOS.init();
   </script>
-
 </html>

@@ -151,8 +151,7 @@ section{
 .home-page {
   position: relative;
   height: 100vh;
-  background-color: lightgrey;
-  background-image: linear-gradient(rgba(211, 211, 211, 0.7) 0%, rgba(211, 211, 211, 0) 100%);
+  background-image: url(./images/homepage\ background.webp);
 }
 
 .text__container{

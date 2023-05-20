@@ -294,3 +294,15 @@ p {
   list-style-type: none;
   font-weight: 400;
 }
+.about-page {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.about-page__leftside,
+.about-page__rightside {
+  width: 50%;
+}
+.about-page__rightside {
+  background-image: url(./images/wix-sectionbackGround.webp);
+}

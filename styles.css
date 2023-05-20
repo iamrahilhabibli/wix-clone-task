@@ -16,8 +16,9 @@ font-family: 'Wix Madefor Display', sans-serif;
   justify-content: flex-start;
   padding: 0px 50px;
   width: 100vw;
-  height: 100px;
-  border-bottom: 1px solid black;
+  height: 75px;
+  box-shadow: 0 2px 18px 0 rgba(129,162,182,.2);
+  /* border-bottom: 1px solid black; */
 }
 
 .navbar__leftside {
@@ -79,12 +80,13 @@ font-family: 'Wix Madefor Display', sans-serif;
   color: black;
 }
 .test {
-  width: 300px;
+  width: 100%;
   height: 300px;
   border: 1px solid black;
   background-color: red;
 }
 .header__botrow__container{
+  box-shadow: 1px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,6 +94,7 @@ font-family: 'Wix Madefor Display', sans-serif;
   width: 100vw;
   height: 100px;
   border-bottom: 1px solid black;
+  padding: 0px 50px;
 }
 .bizbud-text{
   color: #16163F;
@@ -101,10 +104,20 @@ font-family: 'Wix Madefor Display', sans-serif;
 .mid__nav > ul{
   display: flex;
   flex-direction: row;
-  column-gap: 10px;
   list-style-type: none;
+}
+.mid__nav li{
+  padding: 0px 20px;
 }
 .mid__nav a {
   text-decoration: none;
-
+  color: #16163F;
+}
+.callnow__btn{
+  color: white;
+  background-color:#9E3FFC;
+  border-radius: 20px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
 }

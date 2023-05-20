@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", function () {
-  var servicePage = document.querySelector(".service-page");
+  var servicePage = document.querySelector(".serviceWrapperScript");
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
   var moveDistance = scrollTop * 0.5;

@@ -297,7 +297,7 @@ p {
 .about-page {
   height: 100vh;
   display: flex;
-  position: relative;
+  position: sticky;
 }
 .about-page__leftside,
 .about-page__rightside {

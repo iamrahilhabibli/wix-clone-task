@@ -108,14 +108,14 @@ font-family: 'Wix Madefor Display', sans-serif;
   justify-content: space-between;
   width: 100vw;
   height: 100px;
-  border-bottom: 1px solid black;
   padding: 0px 50px;
   position: fixed;
-  top: 75px; /* Adjust this value based on the height of the header__container */
+  top: 75px; 
   left: 0;
   width: 100%;
   z-index: 100;
   background-color: #fff;
+  transition: border-bottom 0.3s ease;
 }
 .bizbud-text{
   color: #16163F;
@@ -141,4 +141,7 @@ font-family: 'Wix Madefor Display', sans-serif;
   padding: 15px 30px;
   border: none;
   font-size: 18px;
+}
+.header__botrow__scrolled {
+  border-bottom: 1px solid black;
 }

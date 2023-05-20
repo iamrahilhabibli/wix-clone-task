@@ -202,8 +202,33 @@ letter-spacing: 1px;
   text-align: center;
   font-weight: 700;
 }
-.services-botwrapper{
+.services-botwrapper {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
 }
+
+.card1,
+.card2,
+.card3 {
+  flex: 1;
+}
+.svg-wrapper {
+  width: 150px;
+  height: 150px;}
+.circles {
+  width: 100%;
+  height: 100%;
+}
+.ticks{
+  height: 100%;
+  width: 100%;
+}
+.dark-purple {
+  fill: #6A0DAD;
+}
+
+.light-purple {
+  fill: #A84BC6;
+}
+
+

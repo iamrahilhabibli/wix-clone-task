@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
-  font-family: 'Roboto', sans-serif;
-font-family: 'Wix Madefor Display', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
 }
 .header__container-wrapper {
   position: fixed;
@@ -87,7 +87,7 @@ font-family: 'Wix Madefor Display', sans-serif;
 .editsite__btn {
   text-decoration: none;
   color: white;
-  background-color: #136DFC;
+  background-color: #136dfc;
   border-radius: 20px;
   padding: 10px 20px;
 }
@@ -100,7 +100,7 @@ font-family: 'Wix Madefor Display', sans-serif;
   border: 1px solid black;
   background-color: red;
 }
-.header__botrow__container{
+.header__botrow__container {
   box-shadow: 1px;
   display: flex;
   flex-direction: row;
@@ -110,33 +110,33 @@ font-family: 'Wix Madefor Display', sans-serif;
   height: 100px;
   padding: 0px 50px;
   position: fixed;
-  top: 75px; 
+  top: 75px;
   left: 0;
   width: 100%;
   z-index: 100;
   background-color: #fff;
   transition: border-bottom 0.3s ease;
 }
-.bizbud-text{
-  color: #16163F;
+.bizbud-text {
+  color: #16163f;
   font-size: 26px;
   font-weight: 700;
 }
-.mid__nav > ul{
+.mid__nav > ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
-.mid__nav li{
+.mid__nav li {
   padding: 0px 20px;
 }
 .mid__nav a {
   text-decoration: none;
-  color: #16163F;
+  color: #16163f;
 }
-.callnow__btn{
+.callnow__btn {
   color: white;
-  background-color:#9E3FFC;
+  background-color: #9e3ffc;
   border-radius: 20px;
   padding: 15px 30px;
   border: none;
@@ -145,7 +145,7 @@ font-family: 'Wix Madefor Display', sans-serif;
 .header__botrow__scrolled {
   border-bottom: 1px solid black;
 }
-section{
+section {
   margin-top: 175px;
 }
 .home-page {
@@ -157,53 +157,53 @@ section{
   background-position: center center;
 }
 
-.text__container{
+.text__container {
   position: relative;
   left: 150px;
   width: max-content;
 }
-.good-advice-text{
+.good-advice-text {
   font-size: 90px;
-  color: #16163F;
+  color: #16163f;
   font-weight: 700;
 }
-.text__container  p {
+.text__container p {
   font-size: 24px;
   line-height: 1.6em;
-  color: #16163F;
+  color: #16163f;
   margin-top: 15px;
 }
-.learnmore__btn{
+.learnmore__btn {
   color: white;
-  background-color:#9E3FFC;
+  background-color: #9e3ffc;
   border-radius: 20px;
   padding: 15px 30px;
   border: none;
   font-size: 18px;
-   margin-top: 25px;
+  margin-top: 25px;
 }
-.service-page{
+.service-page {
   position: relative;
   background-color: white;
   /* padding: 50px; */
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
-.services-topwrapper{
+.services-topwrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.services__toprow p{
-color: #9E3FFC;
-font-size: 16px;
-font-weight: 700;
-margin-top: 118px;
-letter-spacing: 1px;
+.services__toprow p {
+  color: #9e3ffc;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 118px;
+  letter-spacing: 1px;
 }
-.services__botrow p{
+.services__botrow p {
   font-size: 36px;
-  color: #16163F;
+  color: #16163f;
   text-align: center;
   font-weight: 700;
 }
@@ -211,7 +211,7 @@ letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px; 
+  height: 600px;
 }
 
 .card1,
@@ -219,38 +219,67 @@ letter-spacing: 1px;
 .card3 {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.card1 h3,p,
-.card2 h3,p,
-.card3 h3,p {
+.card1 h3,
+p,
+.card2 h3,
+p,
+.card3 h3,
+p {
   text-align: center;
 }
 
 .svg-wrapper {
   width: 150px;
-  height: 150px;}
+  height: 150px;
+}
 .circles {
   width: 100%;
   height: 100%;
 }
-.ticks{
+.ticks {
   height: 100%;
   width: 100%;
 }
 .dark-purple {
-  fill: #6A0DAD;
+  fill: #6a0dad;
 }
 
 .light-purple {
-  fill: #A84BC6;
+  fill: #a84bc6;
 }
-.services__footer{
+.services__footer {
   height: 500px;
-  background-color:#16163F;
+  background-color: #16163f;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
-
+.sf_header_container {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 100px;
+  height: max-content;
+}
+.stats__container {
+  margin: 10px auto 0px auto;
+}
+.stats__container ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 175px;
+  list-style-type: none;
+  font-weight: 700;
+}
+.stats__container ul li {
+  font-size: 14px;
+}
+.stats__container ul li.large-number {
+  font-size: 66px;
+}

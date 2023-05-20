@@ -302,12 +302,13 @@ p {
 }
 .about-page__leftside,
 .about-page__rightside {
-  width: 50%;
+  width: 50vw;
 }
-.about-page__rightside {
-  background-image: url(./images/wix-sectionbackGround.webp);
-  position: relative;
-  z-index: -1;
+.rightside__imgcontainer {
+  width: 100%;
+}
+.rightside__imgcontainer img {
+  width: 100%;
 }
 .about-page__leftside {
   padding: 35px;

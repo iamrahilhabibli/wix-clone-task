@@ -145,3 +145,6 @@ font-family: 'Wix Madefor Display', sans-serif;
 .header__botrow__scrolled {
   border-bottom: 1px solid black;
 }
+section{
+  margin-top: 175px;
+}

@@ -204,7 +204,8 @@ letter-spacing: 1px;
 }
 .services-botwrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 
 .card1,

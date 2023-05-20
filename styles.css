@@ -192,9 +192,15 @@ section{
 .services__toprow p{
 color: #9E3FFC;
 font-size: 16px;
-font-weight: 600;
+font-weight: 700;
 margin-top: 118px;
 letter-spacing: 1px;
+}
+.services__botrow p{
+  font-size: 36px;
+  color: #16163F;
+  text-align: center;
+  font-weight: 700;
 }
 .services-botwrapper{
   display: flex;

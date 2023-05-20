@@ -107,7 +107,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 100px;
+  height: 75px;
   padding: 0px 50px;
   position: fixed;
   top: 75px;
@@ -150,11 +150,12 @@ section {
 }
 .home-page {
   position: relative;
-  height: 100vh;
+  height: 130vh; /* Adjust the value as needed */
   background-image: url(./images/homepage\ background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed; /* Add this line */
 }
 
 .text__container {
@@ -184,11 +185,13 @@ section {
 }
 .serviceWrapperScript {
   background-color: white;
+  height: 120vh;
 }
 .service-page {
   position: relative;
   background-color: white;
   background-attachment: fixed;
+  z-index: 99;
 }
 .services-topwrapper {
   display: flex;
@@ -213,7 +216,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: max-content;
 }
 .card1,
 .card2,

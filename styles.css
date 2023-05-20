@@ -205,14 +205,25 @@ letter-spacing: 1px;
 .services-botwrapper {
   display: flex;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .card1,
 .card2,
 .card3 {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
 }
+
+.card1 h3,p,
+.card2 h3,p,
+.card3 h3,p {
+  text-align: center;
+}
+
 .svg-wrapper {
   width: 150px;
   height: 150px;}

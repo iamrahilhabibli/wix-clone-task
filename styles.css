@@ -148,3 +148,15 @@ font-family: 'Wix Madefor Display', sans-serif;
 section{
   margin-top: 175px;
 }
+.home-page{
+position: relative;
+}
+.text__container{
+  position: relative;
+  left: 150px;
+}
+.good-advice-text{
+  font-size: 90px;
+  color: #16163F;
+  font-weight: 700;
+}

@@ -338,14 +338,16 @@ p {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
-  left: 0;
   right: 0;
-  margin: 0 auto;
-  width: fit-content;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 0;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-left: auto;
 }
 
 .carousel-indicators li {

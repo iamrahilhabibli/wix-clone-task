@@ -312,6 +312,7 @@ p {
 }
 .botrow__about > p {
   text-align: left;
+  font-weight: 200;
 }
 .about-page__leftside,
 .about-page__rightside {
@@ -325,6 +326,7 @@ p {
 .about__left__textcontainer {
   margin: auto;
   width: 50%;
+  line-height: 3rem;
 }
 .botrow__about {
   line-height: 1.7em;

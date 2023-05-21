@@ -450,10 +450,15 @@ p {
   outline: none;
   border-bottom: 1px solid black;
 }
-
 .contact__form__container {
   display: flex;
   flex-direction: column;
+}
+
+.contact__details__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .toprow__contactdetails {
@@ -468,4 +473,10 @@ p {
   display: flex;
   flex-direction: column;
   width: 200px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

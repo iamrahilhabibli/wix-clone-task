@@ -93,3 +93,54 @@ function scrollToServices(event) {
     headerBotRowContainer.offsetHeight;
   window.scrollTo({ top: topOffset, behavior: "smooth" });
 }
+
+const aboutLink = document.querySelector(".about-link");
+aboutLink.addEventListener("click", scrollToAbout);
+
+function scrollToAbout(event) {
+  event.preventDefault();
+  const aboutSection = document.querySelector(".about-page");
+  const topOffset =
+    aboutSection.offsetTop -
+    headerContainer.offsetHeight -
+    headerBotRowContainer.offsetHeight;
+  window.scrollTo({ top: topOffset, behavior: "smooth" });
+}
+
+const testimonialsLink = document.querySelector(".testimonial-link");
+testimonialsLink.addEventListener("click", scrollToTestimonials);
+
+function scrollToTestimonials(event) {
+  event.preventDefault();
+  const testimonialsSection = document.querySelector(".carousel");
+  const topOffset =
+    testimonialsSection.offsetTop -
+    headerContainer.offsetHeight -
+    headerBotRowContainer.offsetHeight;
+  window.scrollTo({ top: topOffset, behavior: "smooth" });
+}
+const clientsLink = document.querySelector(".clients-link");
+clientsLink.addEventListener("click", scrollToClients);
+
+function scrollToClients(event) {
+  event.preventDefault();
+  const clientsSection = document.querySelector(".clients__container");
+  const topOffset =
+    clientsSection.offsetTop -
+    headerContainer.offsetHeight -
+    headerBotRowContainer.offsetHeight;
+  window.scrollTo({ top: topOffset, behavior: "smooth" });
+}
+
+const contactsLink = document.querySelector(".contacts-link");
+contactsLink.addEventListener("click", scrollToContacts);
+
+function scrollToContacts(event) {
+  event.preventDefault();
+  const contactsSection = document.querySelector(".contact-page");
+  const topOffset =
+    contactsSection.offsetTop -
+    headerContainer.offsetHeight -
+    headerBotRowContainer.offsetHeight;
+  window.scrollTo({ top: topOffset, behavior: "smooth" });
+}

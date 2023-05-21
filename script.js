@@ -1,5 +1,5 @@
 const headerBotrow = document.querySelector(".header__botrow__container");
-
+// on scroll add border header
 window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     headerBotrow.classList.add("header__botrow__scrolled");
@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
     headerBotrow.classList.remove("header__botrow__scrolled");
   }
 });
-
+// scroll visual effect on homepage
 window.addEventListener("scroll", function () {
   var servicePage = document.querySelector(".serviceWrapperScript");
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -16,7 +16,7 @@ window.addEventListener("scroll", function () {
 
   servicePage.style.transform = "translateY(-" + moveDistance + "px)";
 });
-
+// carousel pages
 var carousel = document.getElementById("myCarousel");
 var testimonialItems = carousel.querySelectorAll(".testimonial-item");
 
@@ -60,7 +60,7 @@ function showNextTestimonial(event) {
   nextItem.classList.add("active");
   nextItem.style.display = "block";
 }
-
+// on click scroll to section
 const homeLink = document.querySelector(".home-link");
 const servicesLink = document.querySelector(".services-link");
 

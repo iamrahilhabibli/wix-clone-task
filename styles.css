@@ -161,6 +161,7 @@ section {
   position: relative;
   left: 150px;
   width: max-content;
+  transition: 0.5s linear;
 }
 .good-advice-text {
   font-size: 90px;
@@ -398,4 +399,22 @@ p {
   display: flex;
   justify-content: center;
   column-gap: 50px;
+}
+.contact-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/contactpagebG.webp);
+}
+.contact__page__leftside {
+  width: 50vw;
+  padding: 50px;
+}
+.contact__textcontainer p {
+  text-align: left;
+}
+.contact__text {
+  color: #9e3ffc;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }

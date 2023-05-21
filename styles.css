@@ -304,12 +304,30 @@ p {
   display: flex;
   background-color: #fff;
 }
+.toprow__about > p {
+  text-align: left;
+}
+.midrow__about > h3 {
+  text-align: left;
+}
+.botrow__about > p {
+  text-align: left;
+}
 .about-page__leftside,
 .about-page__rightside {
   width: 50vw;
 }
-.toprow__about {
-  text-align: left;
+.about-page__leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about__left__textcontainer {
+  margin: auto;
+  width: 50%;
+}
+.botrow__about {
+  line-height: 1.7em;
 }
 .rightside__imgcontainer {
   width: 100%;
@@ -321,9 +339,7 @@ p {
   object-fit: cover;
   background-attachment: fixed;
 }
-.about-page__leftside {
-  padding: 35px;
-}
+
 .toprow__about {
   color: #9e3ffc;
   font-size: 16px;

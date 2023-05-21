@@ -458,7 +458,7 @@ p {
 .contact__details__container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .toprow__contactdetails {
@@ -475,7 +475,8 @@ p {
   width: 200px;
 }
 
-.email {
+.email,
+.message {
   display: flex;
   flex-direction: column;
   width: 100%;

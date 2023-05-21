@@ -1,0 +1,9 @@
+body {
+  background-color: #f9fafa;
+}
+.main__container {
+  height: 600px;
+  width: 250px;
+  background-color: white;
+  border-radius: 26px;
+}

@@ -481,3 +481,9 @@ p {
   flex-direction: column;
   width: 100%;
 }
+.mapsLocation {
+  width: 100vw;
+}
+.mapsLocation iframe {
+  width: 100%;
+}

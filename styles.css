@@ -406,11 +406,16 @@ p {
   font-weight: 600;
   letter-spacing: 1px;
 }
+.testimonial-text {
+  font-size: 42px;
+  font-weight: 600;
+}
 .clients__botrow {
   display: flex;
   justify-content: center;
   column-gap: 50px;
 }
+
 .contact-page {
   height: 100vh;
   width: 100vw;

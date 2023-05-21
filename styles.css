@@ -411,10 +411,32 @@ p {
 }
 .contact__textcontainer p {
   text-align: left;
+  margin-bottom: 10px;
+}
+.contact__textcontainer p:not(.contact__text) {
+  font-size: 20px;
+  color: #16163f;
+  font-weight: 200;
+}
+.contact__textcontainer h3 {
+  font-size: 40px;
+  margin-bottom: 16px;
 }
 .contact__text {
   color: #9e3ffc;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.details__container {
+  margin-bottom: 50px;
+}
+.details__icon__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.details__icon__container i {
+  font-size: 20px;
 }

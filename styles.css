@@ -487,3 +487,12 @@ p {
 .mapsLocation iframe {
   width: 100%;
 }
+.home-link:hover,
+.services-link:hover,
+.about-link:hover,
+.testimonial-link:hover,
+.clients-link:hover,
+.contacts-link:hover {
+  color: #a84bc6;
+  transition: 0.1s linear;
+}

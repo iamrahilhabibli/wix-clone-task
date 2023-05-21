@@ -404,10 +404,15 @@ p {
   height: 100vh;
   width: 100vw;
   background-image: url(./images/contactpagebG.webp);
+  display: flex;
 }
 .contact__page__leftside {
   width: 50vw;
   padding: 50px;
+}
+.contact__page__rightside {
+  width: 50vw;
+  padding: 100px;
 }
 .contact__textcontainer p {
   text-align: left;
@@ -439,4 +444,28 @@ p {
 }
 .details__icon__container i {
   font-size: 20px;
+}
+.underline-input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.contact__form__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toprow__contactdetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstName,
+.lastName {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }

@@ -331,6 +331,10 @@ p {
 .carousel {
   background-color: #9e3ffc;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-indicators {
   position: absolute;
@@ -361,8 +365,15 @@ p {
 .carousel-inner {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
-
+.carousel-title {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
 .carousel-item {
   flex: 0 0 100%;
   max-width: 100%;
